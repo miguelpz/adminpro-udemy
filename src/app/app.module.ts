@@ -24,15 +24,15 @@ import { RegisterComponent } from './login/register.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    NopagefoundComponent,
+    RegisterComponent,
     // ProgressComponent,
     // Graficas1Component,
-    HeaderComponent,
-    SidebarComponent,
-    BreadcrumbsComponent,
     // DashboardComponent,
-    PagesComponent,
-    RegisterComponent
+    // PagesComponent
+    // NopagefoundComponent,
+    // HeaderComponent,
+    // SidebarComponent,
+    // BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
