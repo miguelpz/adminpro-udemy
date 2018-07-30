@@ -1,9 +1,10 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { DashboardComponent } from '../app/pages/dashboard/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
+
 
 const pagesRoutes: Routes = [
     {
