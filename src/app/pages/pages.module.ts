@@ -4,6 +4,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SharedsModule } from '../shared/shared.module';
 import { PagesComponent } from './pages.component';
+import { PAGES_ROUTES } from './pages.route';
 
 
 
@@ -21,7 +22,8 @@ import { PagesComponent } from './pages.component';
          PagesComponent
     ],
     imports: [
-        SharedsModule
+        SharedsModule,
+        PAGES_ROUTES
    ]
 
   })
