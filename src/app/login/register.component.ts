@@ -19,6 +19,7 @@ export class RegisterComponent implements OnInit {
 
   forma: FormGroup;
 
+
   constructor(
     public _usuarioService: UsuarioService,
     public router: Router
@@ -56,9 +57,9 @@ export class RegisterComponent implements OnInit {
 
     this.forma.setValue({
       nombre: 'Test',
-      correo: 'tes@test.com',
-      password: '123',
-      password2: '1234',
+      correo: 'test@test.com',
+      password: '123456',
+      password2: '123456',
       condiciones: true
 
     });

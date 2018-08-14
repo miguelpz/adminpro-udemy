@@ -18,6 +18,9 @@ import { CommonModule } from '@angular/common';
 import { PipesModule } from '../pipes/pipes.module';
 
 import { ProfileComponent } from './profile/profile.component';
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
 
@@ -32,7 +35,10 @@ import { ProfileComponent } from './profile/profile.component';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        NopagefoundComponent,
+        UsuariosComponent,
+        ModalUploadComponent
 
 
 
@@ -40,7 +46,8 @@ import { ProfileComponent } from './profile/profile.component';
     exports: [
          DashboardComponent,
          ProgressComponent,
-         Graficas1Component
+         Graficas1Component,
+
 
 
 
@@ -51,7 +58,7 @@ import { ProfileComponent } from './profile/profile.component';
         PAGES_ROUTES,
         FormsModule,
         ChartsModule,
-        PipesModule
+        PipesModule,
 
 
    ]

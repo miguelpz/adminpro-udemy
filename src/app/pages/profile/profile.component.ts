@@ -24,7 +24,7 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log ('Muestra imagen actual', this.usuario.img);
+
   }
 
   guardar (usuario: Usuario) {
@@ -52,10 +52,6 @@ export class ProfileComponent implements OnInit {
     let urlImagenTempo = reader.readAsDataURL (archivo);
 
     reader.onloadend = () => this.imagenTemp = reader.result;
-
-
-
-
   }
 
   cambiarImagen () {
