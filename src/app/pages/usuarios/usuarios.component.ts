@@ -97,7 +97,7 @@ export class UsuariosComponent implements OnInit {
       return;
     }
 
-   console.log (this.totalRegistros);
+
 
     swal({
       title: '¿Está seguro',
@@ -108,7 +108,6 @@ export class UsuariosComponent implements OnInit {
     })
     .then((borrar) => {
 
-      console.log (borrar);
 
       if (borrar) {
 
@@ -119,7 +118,7 @@ export class UsuariosComponent implements OnInit {
 
         this._usuarioService.borrarUsuario(usuario._id)
               .subscribe (borrado => {
-                console.log (borrado);
+
                this.cargarUsuarios();
               });
       }

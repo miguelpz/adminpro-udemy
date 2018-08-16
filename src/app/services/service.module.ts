@@ -5,11 +5,13 @@ import { SubirArchivoService } from './subir-archivo/subir-archivo.service';
 import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 
+
 import {
   SettingsService,
   SidebarService,
   SharedService,
   UsuarioService,
+  HospitalService,
   LoginGuardGuard
 } from './service.index';
 
@@ -28,6 +30,7 @@ import {
   SidebarService,
   SharedService,
   UsuarioService,
+  HospitalService,
   LoginGuardGuard,
   SubirArchivoService,
   ModalUploadComponent

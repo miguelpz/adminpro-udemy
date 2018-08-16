@@ -21,6 +21,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
 
 
 
@@ -38,7 +39,8 @@ import { ModalUploadComponent } from '../components/modal-upload/modal-upload.co
         ProfileComponent,
         NopagefoundComponent,
         UsuariosComponent,
-        ModalUploadComponent
+        ModalUploadComponent,
+        HospitalesComponent
 
 
 
