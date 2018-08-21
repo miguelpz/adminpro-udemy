@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivationEnd } from '@angular/router';
 import { retry, map, filter } from 'rxjs/operators';
 import { Title, Meta, MetaDefinition } from '@angular/platform-browser';
+import { MedicoService } from '../../services/medico/medico.service';
 
 @Component({
   selector: 'app-breadcrumbs',
@@ -14,7 +15,8 @@ export class BreadcrumbsComponent implements OnInit {
 
   constructor( private router: Router,
                private title: Title,
-               private meta: Meta) {
+               private meta: Meta,
+              private _medicoService: MedicoService) {
 
     this.getDataRoute()
     .subscribe (data => {
@@ -33,6 +35,7 @@ export class BreadcrumbsComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
   getDataRoute() {

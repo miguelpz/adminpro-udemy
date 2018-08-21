@@ -2,7 +2,7 @@ import { take } from 'rxjs/internal/operators';
 import { Component, OnInit } from '@angular/core';
 import { HospitalService } from '../../services/service.index';
 import { Hospital } from '../../models/hospital.model';
-import { TouchSequence } from '../../../../node_modules/@types/selenium-webdriver';
+import { TouchSequence } from 'selenium-webdriver';
 import { ModalUploadService } from '../../components/modal-upload/modal-upload.service';
 declare var swal: any;
 

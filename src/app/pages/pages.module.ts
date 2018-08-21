@@ -22,6 +22,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 
 
@@ -40,7 +42,9 @@ import { HospitalesComponent } from './hospitales/hospitales.component';
         NopagefoundComponent,
         UsuariosComponent,
         ModalUploadComponent,
-        HospitalesComponent
+        HospitalesComponent,
+        MedicosComponent,
+        MedicoComponent
 
 
 

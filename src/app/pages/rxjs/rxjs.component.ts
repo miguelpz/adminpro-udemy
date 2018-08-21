@@ -1,7 +1,7 @@
 import { Observable, Subscriber, Subscription } from 'rxjs';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Validators } from '../../../../node_modules/@angular/forms';
+import { Validators } from '@angular/forms';
 import { map, filter } from 'rxjs/operators';
 
 

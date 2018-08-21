@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { resolve } from 'url';
-import { XhrFactory } from '../../../../node_modules/@angular/common/http';
+import { XhrFactory } from '@angular/common/http';
 import { URL_SERVICIOS } from '../../config/config';
 
 @Injectable({
