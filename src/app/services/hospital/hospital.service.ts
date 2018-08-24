@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Hospital } from '../../models/hospital.model';
 import { UsuarioService } from '../usuario/usuario.service';
+import swal from 'sweetalert';
 
 @Injectable({
   providedIn: 'root'

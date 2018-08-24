@@ -4,6 +4,7 @@ import { HospitalService } from '../../services/service.index';
 import { Hospital } from '../../models/hospital.model';
 import { TouchSequence } from 'selenium-webdriver';
 import { ModalUploadService } from '../../components/modal-upload/modal-upload.service';
+
 declare var swal: any;
 
 @Component({

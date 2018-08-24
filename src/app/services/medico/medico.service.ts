@@ -4,6 +4,7 @@ import { URL_SERVICIOS } from '../../config/config';
 import { UsuarioService } from '../usuario/usuario.service';
 import { Medico } from '../../models/medico.model';
 import { Router } from '@angular/router';
+import swal from 'sweetalert';
 
 @Injectable({
   providedIn: 'root'

@@ -19,6 +19,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { MedicoComponent } from './pages/medicos/medico.component';
+import { PagesComponent } from './pages/pages.component';
+import { SharedsModule } from './shared/shared.module';
+
 
 
 
@@ -26,17 +29,18 @@ import { MedicoComponent } from './pages/medicos/medico.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    PagesComponent
 
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule,
+    // PagesModule,
     ReactiveFormsModule,
     FormsModule,
-    ServiceModule
-
+    ServiceModule,
+    SharedsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
